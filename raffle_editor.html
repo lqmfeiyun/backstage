@@ -1,0 +1,264 @@
+﻿<!DOCTYPE html>
+<html>
+<head lang="zh-CN">
+	<title>礼品配置-编辑</title>
+
+	<meta http-equiv="charset" charset="UTF-8" content="utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/backpage.css"/>
+</head>
+<body>
+<div class="box">
+	<div class="top">
+		<div type="button" class="btn btn-primary button" onclick="location.href='raffle_use.html'">保存</div>
+	</div>
+	<div class="row container-fluid   content">
+		<div class=" content_page">
+			<div class="form-group content_line">
+				<div class="gift_left">礼品类型</div>
+				<div class="gift_style">油卡</div>
+			</div>
+			<div class="form-group content_line">
+				<div class="gift_left">面额范围</div>
+				<div class="col-sm-6 gift_counts"><input placeholder="1"> </div>
+				<div class="gift_right">元</div>
+			</div>
+			<div class="form-group content_img">
+				<div class="gift_left">礼品图片</div>
+				<div class="gift_style"><img src=""></div>
+			</div>
+			<div class="form-group content_line">
+				<div class="gift_card">默认油卡</div>
+			</div>
+		</div>
+
+		<div class=" content_page">
+			<div class="form-group content_line">
+				<div class="gift_left">
+
+					礼品类型</div>
+				<div class="gift_style">实物</div>
+			</div>
+			<div class="form-group content_line">
+				<div class="gift_left">礼品名称</div>
+				<div class="gift_style">安全锤</div>
+			</div>
+			<div class="form-group content_line">
+				<div class="gift_left">发放数量</div>
+				<div class="gift_counts">100</div>
+				<div class="gift_right">件</div>
+			</div>
+			<div class="form-group content_line">
+				<div class="gift_left">剩余数量</div>
+				<div class="gift_counts">18</div>
+				<div class="gift_right">件</div>
+			</div>
+			<div class="form-group content_line">
+				<div class="gift_left">中奖设置</div>
+				<div class="gift_style">第</div>
+				<div class="gift_counts">1000</div>
+				<div class="gift_right">件始发</div>
+			</div>
+			<div class="form-group content_line">
+				<div class="gift_card gift_style">第</div>
+				<div class="gift_counts">1000</div>
+				<div class="gift_right">发放1件</div>
+			</div>
+			<div class="form-group content_img">
+				<div class="gift_left">礼品图片</div>
+				<div class="gift_style"><img src=""></div>
+			</div>
+			<div class="set_failed btn btn-primary button">设置失效</div>
+		</div>
+
+		<div class=" content_page">
+			<div class="form-group content_line">
+				<div class="gift_left">礼品类型</div>
+				<div class="gift_style">
+						<span class="dropdown">
+			    		 	<select class="form-control input-lg list">
+								<option id ="soc1">红包</option>
+								<option id ="ssw1">实物</option>
+							</select>
+						</span>
+				</div>
+			</div>
+			<div class="yks1">
+				<div class="form-group content_line">
+					<div class="gift_left">礼品名称</div>
+					<div class="gift_style"><input placeholder="奥运红包"></div>
+				</div>
+				<div class="form-group content_line">
+					<div class="gift_left">发放数量</div>
+					<div class="gift_counts"><input placeholder="100"></div>
+					<div class="gift_right">件</div>
+				</div>
+				<div class="form-group content_line">
+					<div class="gift_left">剩余数量</div>
+					<div class="gift_counts"><input placeholder="18"></div>
+					<div class="gift_right">件</div>
+				</div>
+				<div class="form-group content_line">
+					<div class="gift_left">发放金额</div>
+					<div class="gift_counts"><input placeholder="10"></div>
+					<div class="gift_right">元</div>
+				</div>
+				<div class="form-group content_line">
+					<div class="gift_left">中奖设置</div>
+					<div class="gift_style">第</div>
+					<div class="gift_counts counts1"><input placeholder="10"></div>
+					<div class="gift_right">件始发</div>
+				</div>
+				<div class="form-group content_line">
+					<div class="gift_card gift_style">第</div>
+					<div class="gift_counts counts1"><input placeholder="500"></div>
+					<div class="gift_right">发放1件</div>
+				</div>
+				<div class="form-group content_img">
+					<div class="gift_left">礼品图片</div>
+					<div class="gift_style"><img src=""></div>
+				</div>
+			</div>
+			<div class="sws1" style="display:none;">
+				<div class="form-group content_line">
+					<div class="gift_left">礼品名称</div>
+					<div class="gift_style"><input placeholder="安全锤"></div>
+				</div>
+				<div class="form-group content_line">
+					<div class="gift_left">发放数量</div>
+					<div class="gift_counts"><input placeholder="50"></div>
+					<div class="gift_right">件</div>
+				</div>
+				<div class="form-group content_line">
+					<div class="gift_left">中奖设置</div>
+					<div class="gift_style">第</div>
+					<div class="gift_counts counts1"><input placeholder="5"></div>
+					<div class="gift_right">件始发</div>
+				</div>
+				<div class="form-group content_line">
+					<div class="gift_card gift_style">第</div>
+					<div class="gift_counts counts1"><input placeholder="300"></div>
+					<div class="gift_right">发放1件</div>
+				</div>
+				<div class="form-group content_img">
+					<div class="gift_left">礼品图片</div>
+					<div class="gift_style"><img src=""></div>
+				</div>
+			</div>
+		</div>
+		<!-- 默认 -->
+		<div class=" content_page">
+			<div class="form-group content_line">
+				<div class="gift_left">礼品类型</div>
+				<div class="gift_style">
+						<span class="dropdown">
+			    		 	<select class="form-control input-lg list">
+								<option id ="ssw2">实物</option>
+								<option id ="soc2">红包</option>
+							</select>
+						</span>
+				</div>
+			</div>
+			<div class="sws2">
+			<div class="form-group content_line">
+				<div class="gift_left">礼品名称</div>
+				<div class="gift_style"><input placeholder="安全锤"></div>
+			</div>
+			<div class="form-group content_line">
+				<div class="gift_left">发放数量</div>
+				<div class="gift_counts"><input placeholder="50"></div>
+				<div class="gift_right">件</div>
+			</div>
+			<div class="form-group content_line">
+				<div class="gift_left">中奖设置</div>
+				<div class="gift_style">第</div>
+				<div class="gift_counts counts1"><input placeholder="5"></div>
+				<div class="gift_right">件始发</div>
+			</div>
+			<div class="form-group content_line">
+				<div class="gift_card gift_style">第</div>
+				<div class="gift_counts counts1"><input placeholder="300"></div>
+				<div class="gift_right">发放1件</div>
+			</div>
+			<div class="form-group content_img">
+				<div class="gift_left">礼品图片</div>
+				<div class="gift_style"><img src=""></div>
+			</div>
+		</div>
+		<div class="yks2" style="display:none;">
+			<div class="form-group content_line">
+				<div class="gift_left">礼品名称</div>
+				<div class="gift_style"><input placeholder="奥运红包"></div>
+			</div>
+			<div class="form-group content_line">
+				<div class="gift_left">发放数量</div>
+				<div class="gift_counts"><input placeholder="100"></div>
+				<div class="gift_right">件</div>
+			</div>
+			<div class="form-group content_line">
+				<div class="gift_left">剩余数量</div>
+				<div class="gift_counts"><input placeholder="18"></div>
+				<div class="gift_right">件</div>
+			</div>
+			<div class="form-group content_line">
+				<div class="gift_left">发放金额</div>
+				<div class="gift_counts"><input placeholder="10"></div>
+				<div class="gift_right">元</div>
+			</div>
+			<div class="form-group content_line">
+				<div class="gift_left">中奖设置</div>
+				<div class="gift_style">第</div>
+				<div class="gift_counts counts1"><input placeholder="10"></div>
+				<div class="gift_right">件始发</div>
+			</div>
+			<div class="form-group content_line">
+				<div class="gift_card gift_style">第</div>
+				<div class="gift_counts counts1"><input placeholder="500"></div>
+				<div class="gift_right">发放1件</div>
+			</div>
+			<div class="form-group content_img">
+				<div class="gift_left">礼品图片</div>
+				<div class="gift_style"><img src=""></div>
+			</div>
+		</div>
+	</div>
+	<div class=" content_page back_style">
+		<div class="form-group content_line">
+			<div class="gift_left">礼品类型</div>
+			<div class="gift_style">
+						<span class="dropdown">
+			    		 	<select class="form-control input-lg list">
+								<option>请选择</option>
+								<option>实物</option>
+								<option>红包</option>
+							</select>
+						</span>
+			</div>
+		</div>
+		<div class="center_page"><a href="raffle_add.html">点此添加</a></div>
+	</div>
+	<!-- 点击后 -->
+	<div class=" content_page">
+		<div class="form-group content_line">
+			<div class="gift_left">礼品类型</div>
+			<div class="gift_style">
+						<span class="dropdown">
+			    		 	<select class="form-control input-lg list">
+								<option>请选择</option>
+								<option>实物</option>
+								<option>红包</option>
+							</select>
+						</span>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+<script src="js/jquery.js"></script>
+<script src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/backpage.js"></script>
+</body>
+</html>

@@ -1,0 +1,255 @@
+﻿<!DOCTYPE html>
+<html>
+<head lang="zh-CN">
+	<title>礼品配置-添加状态</title>
+
+	<meta http-equiv="charset" charset="UTF-8" content="utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet"/>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+	<link href="css/fileinput.css" media="all" rel="stylesheet" type="text/css" />	
+	<link rel="stylesheet" type="text/css" href="css/backpage.css"/>
+</head>
+<body>
+	<div class="box">
+		<div class="top">
+			<div type="button" class="btn btn-primary button" onclick="location.href='raffle_use.html'">保存</a> </div>
+		</div>
+		<div class="row container-fluid   content">
+			<!-- 添加状态-油卡 -->
+			<div class=" content_page">
+				<div class="form-group content_line">
+					<div class="gift_left">礼品类型</div>
+					<div class="gift_style">
+						<span class="dropdown">
+			    		 	<select class="form-control input-lg list">
+			    		 		<option id="yks11">油卡</option>
+			    		 		<option id="sws11">实物</option>
+				        	</select>
+						</span>
+					</div>
+				</div>
+				<div class="ayk1">
+					<div class="form-group content_line">
+						<div class="gift_left">礼品名称</div>
+						<div class="gift_style"><input /></div>
+					</div>
+					<div class="form-group content_line">
+						<div class="gift_left">发放数量</div>
+						<div class="gift_counts"><input /></div>
+						<div class="gift_right">件</div>
+					</div>
+					<div class="form-group content_line">
+						<div class="gift_left">剩余数量</div>
+						<div class="gift_counts"><input /></div>
+						<div class="gift_right">件</div>
+					</div>
+					<div class="form-group content_line">
+						<div class="gift_left">发放金额</div>
+						<div class="gift_counts"><input /></div>
+						<div class="gift_right">元</div>
+					</div>
+					<div class="form-group content_line">
+						<div class="gift_left">中奖设置</div>
+						<div class="gift_style">第</div>
+						<div class="gift_counts counts1"><input/></div>
+						<div class="gift_right">件始发</div>
+					</div>
+						<div class="form-group content_line">
+						<div class="gift_card gift_style">第</div>
+						<div class="gift_counts counts1"><input /></div>
+						<div class="gift_right">发放1件</div>
+					</div>
+					<div class="form-group content_img">
+						<div class="gift_left">礼品图片</div>
+						<div class="gift_style">
+							<span class="file-input">
+								<div class="hide">
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active"
+										role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"
+										style="width:0%;">
+											0%
+										</div>
+									</div>
+								</div>
+								<button type="button" title="取消进行中的上传" class="hide btn btn-default fileinput-cancel fileinput-cancel-button">
+									<i class="glyphicon glyphicon-ban-circle">
+									</i>
+									取消
+								</button>
+								<input class="file-3"  type="file" accept="image/*">
+							</span>
+						</div>
+					</div>
+				</div>
+				<div class="asw1" style="display:none;">
+					<div class="form-group content_line">
+						<div class="gift_left">礼品名称</div>
+						<div class="gift_style"><input></div>
+					</div>
+					<div class="form-group content_line">
+						<div class="gift_left">发放数量</div>
+						<div class="gift_counts"><input ></div>
+						<div class="gift_right">件</div>
+					</div>
+					<div class="form-group content_line">
+						<div class="gift_left">中奖设置</div>
+						<div class="gift_style">第</div>
+						<div class="gift_counts counts1"><input></div>
+						<div class="gift_right">件始发</div>
+					</div>
+					<div class="form-group content_line">
+						<div class="gift_card gift_style">第</div>
+						<div class="gift_counts counts1"><input /></div>
+						<div class="gift_right">发放1件</div>
+					</div>
+					<div class="form-group content_img">
+						<div class="gift_left">礼品图片</div>
+						<div class="gift_style">
+							<span class="file-input">
+								<div class="hide">
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active"
+										role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"
+										style="width:0%;">
+											0%
+										</div>
+									</div>
+								</div>
+								<button type="button" title="取消进行中的上传" class="hide btn btn-default fileinput-cancel fileinput-cancel-button">
+									<i class="glyphicon glyphicon-ban-circle">
+									</i>
+									取消
+								</button>
+								<input class="file-3"  type="file" accept="image/*">
+							</span>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+			<!-- 添加状态-实物 -->
+			<div class=" content_page">
+				<div class="form-group content_line">
+					<div class="gift_left">礼品类型</div>
+					<div class="gift_style">
+						<span class="dropdown">
+			    		 	<select class="form-control input-lg list">
+			    		 		<option id="sws12">实物</option>
+			    		 		<option id="yks12">油卡</option>
+				        	</select>
+						</span>
+					</div>
+				</div>
+				<div class="asw2">
+					<div class="form-group content_line">
+						<div class="gift_left">礼品名称</div>
+						<div class="gift_style"><input></div>
+					</div>
+					<div class="form-group content_line">
+						<div class="gift_left">发放数量</div>
+						<div class="gift_counts"><input ></div>
+						<div class="gift_right">件</div>
+					</div>
+					<div class="form-group content_line">
+						<div class="gift_left">中奖设置</div>
+						<div class="gift_style">第</div>
+						<div class="gift_counts counts1"><input></div>
+						<div class="gift_right">件始发</div>
+					</div>
+					<div class="form-group content_line">
+						<div class="gift_card gift_style">第</div>
+						<div class="gift_counts counts1"><input /></div>
+						<div class="gift_right">发放1件</div>
+					</div>
+					<div class="form-group content_img">
+						<div class="gift_left">礼品图片</div>
+						<div class="gift_style">
+							<span class="file-input">
+								<div class="hide">
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active"
+										role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"
+										style="width:0%;">
+											0%
+										</div>
+									</div>
+								</div>
+								<button type="button" title="取消进行中的上传" class="hide btn btn-default fileinput-cancel fileinput-cancel-button">
+									<i class="glyphicon glyphicon-ban-circle">
+									</i>
+									取消
+								</button>
+								<input class="file-3"  type="file" accept="image/*">
+							</span>
+						</div>
+					</div>
+				</div>
+				<div class="ayk2" style="display:none;">
+					<div class="form-group content_line">
+						<div class="gift_left">礼品名称</div>
+						<div class="gift_style"><input /></div>
+					</div>
+					<div class="form-group content_line">
+						<div class="gift_left">发放数量</div>
+						<div class="gift_counts"><input /></div>
+						<div class="gift_right">件</div>
+					</div>
+					<div class="form-group content_line">
+						<div class="gift_left">剩余数量</div>
+						<div class="gift_counts"><input /></div>
+						<div class="gift_right">件</div>
+					</div>
+					<div class="form-group content_line">
+						<div class="gift_left">发放金额</div>
+						<div class="gift_counts"><input /></div>
+						<div class="gift_right">元</div>
+					</div>
+					<div class="form-group content_line">
+						<div class="gift_left">中奖设置</div>
+						<div class="gift_style">第</div>
+						<div class="gift_counts counts1"><input/></div>
+						<div class="gift_right">件始发</div>
+					</div>
+						<div class="form-group content_line">
+						<div class="gift_card gift_style">第</div>
+						<div class="gift_counts counts1"><input /></div>
+						<div class="gift_right">发放1件</div>
+					</div>
+					<div class="form-group content_img">
+						<div class="gift_left">礼品图片</div>
+						<div class="gift_style" >
+							<span class="file-input">
+								<div class="hide">
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active"
+										role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"
+										style="width:0%;">
+											0%
+										</div>
+									</div>
+								</div>
+								<button type="button" title="取消进行中的上传" class="hide btn btn-default fileinput-cancel fileinput-cancel-button">
+									<i class="glyphicon glyphicon-ban-circle">
+									</i>
+									取消
+								</button>
+								<input class="file-3"  type="file" accept="image/*">
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/backpage.js"></script>
+	 <script src="js/fileinput.js" type="text/javascript"></script>
+    <script src="js/fileinput_locale_zh.js" type="text/javascript"></script>
+
+</body>
+</html>

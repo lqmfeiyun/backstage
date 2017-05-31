@@ -1,0 +1,156 @@
+﻿<!DOCTYPE html>
+<html>
+<head lang="zh-CN">
+	<title>用户中奖纪录---实物</title>
+	
+	<meta http-equiv="charset" content="utf-8" charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/backpage.css">
+</head>
+<body>
+	<div class="box">
+		<div class="top">
+			<form class="form-inline form_box" role="form">
+		  		<div class="form-group time_box">
+		  			<span class="top_time_name">中奖时间</span>
+		    		<input class="time_begin" />
+		  		</div>
+	  			<div class="form-group">至</div>
+			 	 <div class="form-group">
+			   		<input class="time_end" />
+			  	</div>
+			  	<div class="form-group time_box">
+		  			<span class="top_time_name">查找条件</span>
+		    		<span class="dropdown">
+		    		 	<select class="form-control input-lg list">
+			          		<option>请选择</option>
+			        	</select>
+					</span>
+		  		</div>
+		  		<input class="time_end" placeholder="请输入" />
+			</form>
+			<form class="form-inline form_box" role="form">
+		  		<div class="form-group time_box">
+		  			<span class="top_time_name">领取时间</span>
+		    		<input class="time_begin" />
+		  		</div>
+	  			<div class="form-group">至</div>
+			 	 <div class="form-group">
+			   		<input class="time_end" />
+			  	</div>
+			  	<div class="form-group time_box">
+		  			<span class="top_time_name">领取状态</span>
+		    		<span class="dropdown">
+			    		<select class="form-control input-lg list">
+				          	<option>请选择</option>
+				        </select>
+					</span>
+		  		</div>
+			</form>
+			<form class="form-inline form_box" role="form">
+		  		<div class="form-group time_box">
+		  			<span class="top_time_name">发放时间</span>
+		    		<input class="time_begin" />
+		  		</div>
+	  			<div class="form-group">至</div>
+			 	 <div class="form-group">
+			   		<input class="time_end" />
+			  	</div>
+			  	<div class="form-group time_box">
+		  			<span class="top_time_name">发放状态</span>
+		    		<span class="dropdown">
+		    		 	<select class="form-control input-lg list">
+			         		<option>请选择</option>
+			        	</select>
+					</span>
+		  		</div>
+		  		<div class="btn btn-primary button seacher"> 查找</div>
+			</form>
+
+		</div>
+		<div class="button_line">
+			<form class="form-inline form_box" role="form">
+				<div class="form-group button_give">
+					<div class="btn btn-primary button"> 查找</div>
+				</div>
+				<div class="form-group button_Excel">
+					<div class="btn btn-primary button"> 导出Excel</div>
+				</div>
+			</form>
+		</div>
+		<div class="table-responsive table_box">
+			<table class="table table-bordered">
+			   	<thead>
+				  <tr>
+				    <th><input type="checkbox" name="全选"></th>
+				    <th>中奖时间</th>
+				    <th>中奖手机号</th>
+				    <th>礼品名称</th>
+				    <th>领取状态</th>
+				    <th>领取时间</th>
+				    <th>发放状态</th>
+				    <th>发放时间</th>
+				    <th>操作</th>
+				  </tr>
+				</thead>
+				<tbody>
+				  <tr>
+				    <td><input type="checkbox" ></td>
+				    <td>2016-8-19 16:16:29</td>
+				    <td>13333333333</td>
+				    <td>安全锤</td>
+				    <td>未领取</td>
+				    <td></td>
+				    <td>不可发放</td>
+				    <td>2016-8-22 09:11:39</td>
+				    <td><button class="btn btn-primary button">查看详情</button></td>
+				  </tr>
+				  <tr>
+				    <td><input type="checkbox" ></td>
+				    <td>2016-8-19 16:16:29</td>
+				    <td>13333333333</td>
+				    <td>安全锤</td>
+				    <td>已领取</td>
+				    <td>2016-8-19 16:38:55</td>
+				    <td>可发放</td>
+				    <td>2016-8-22 09:11:39</td>
+				    <td><button class="btn btn-primary button">查看详情</button></td>
+				  </tr>
+				  <tr>
+				    <td><input type="checkbox"></td>
+				    <td>2016-8-19 16:16:29</td>
+				    <td>13333333333</td>
+				    <td>安全锤</td>
+				    <td>已过期</td>
+				    <td></td>
+				    <td>不可发放</td>
+				    <td>2016-8-22 09:11:39</td>
+				    <td><button class="btn btn-primary button">查看详情</button></td>
+				  </tr>
+				  <tr>
+				    <td><input type="checkbox" ></td>
+				    <td>2016-8-19 16:16:29</td>
+				    <td>13333333333</td>
+				    <td>安全锤</td>
+				    <td>已领取</td>
+				    <td>2016-8-19 16:38:55</td>
+				    <td>可发放</td>
+				    <td></td>
+				    <td><button class="btn btn-primary button">查看详情</button></td>
+				  </tr>
+				</tbody>
+			</table>
+		</div>
+		<div class="alert_box box5">
+			<div class="alert_box_page">存在不可发放或已发放礼品，请重新选择</div>
+			<div class="btn btn-primary button">确定</div>
+		</div>
+	</div>
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/backpage.js"></script>
+</body>
+</html>

@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+<html>
+<head lang="zh-CN">
+	<title>红包管理</title>
+
+	<meta http-equiv="charset" charset="UTF-8" content="utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/backpage.css"/>
+</head>
+<body>
+	<div class="box">
+		<div class="top">
+			<div class="top">
+				<form class="form-inline form_box" role="form">
+			  		<div class="form-group time_box">
+			  			<span class="top_time_name">时间</span>
+			    		<input class="time_begin" />
+			  		</div>
+		  			<div class="form-group">至</div>
+				 	 <div class="form-group">
+				   		<input class="time_end" />
+				  	</div>
+				  	<div class="form-group time_box">
+			  			<span class="top_time_name">是否在被发放</span>
+			    		<span class="dropdown">
+			    		 	<select class="form-control input-lg list">
+				          		<option>请选择</option>
+				        	</select>
+						</span>
+			  		</div>
+			  		<div class="form-group time_box">
+			  			<span class="top_time_name">状态</span>
+			    		<span class="dropdown">
+			    		 	<select class="form-control input-lg list">
+				          		<option>请选择</option>
+				        	</select>
+						</span>
+			  		</div>
+				</form>
+				<form class="form-inline form_box" role="form">
+			  		<div class="form-group time_box">
+			  			<span class="top_time_name">手机号</span>
+			    		<input class="time_begin" placeholder="请输入"/>
+			  		</div>
+				   	<div class="btn btn-primary button seacher"> 查找</div>
+				</form>
+			</div>
+			<div class="table-responsive table_box ocard_box">
+				<table class="table table-bordered">
+				   	<thead>
+					  <tr>
+					    <th>最后一次记录时间</th>
+					    <th>手机号</th>
+					    <th>是否存在待发放</th>
+					    <th>状态</th>
+					    <th>金额</th>
+					    <th>可用金额</th>
+					    <th>操作</th>
+					  </tr>
+					</thead>
+					<tbody>
+					  <tr>
+					    <td>2016-8-19 16:16:29</td>
+					    <td>13333333333</td>
+					    <td>否</td>
+					    <td>中奖</td>
+					    <td>1</td>
+					    <td>152</td>
+					    <td><button class="btn btn-primary button">查看详情</button></td>
+					  </tr>
+					  <tr>
+					    <td>2016-8-19 16:16:29</td>
+					    <td>13333333333</td>
+					    <td>是</td>
+					    <td>使用</td>
+					    <td>150</td>
+					    <td>2</td>
+					    <td><button class="btn btn-primary button">查看详情</button></td>
+					  </tr>
+					  <tr>
+					    <td>2016-8-19 16:16:29</td>
+					    <td>13333333333</td>
+					    <td>是</td>
+					    <td>中奖</td>
+					    <td>5</td>
+					    <td>49</td>
+					    <td><button class="btn btn-primary button">查看详情</button></td>
+					  </tr>
+					  <tr>
+					    <td>2016-8-19 16:16:29</td>
+					    <td>13333333333</td>
+					    <td>否</td>
+					    <td>使用</td>
+					    <td>100</td>
+					    <td>15</td>
+					    <td><button class="btn btn-primary button">查看详情</button></td>
+					  </tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/backpage.js"></script>
+</body>
+</html>
+<div class=""></div>
